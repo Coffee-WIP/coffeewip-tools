@@ -2,7 +2,7 @@
 
 ## 🔖 Description
 
-TODO
+This repository includes a JavaScript Library to integrate with the Slack Rest API. You can get information from the channels and much more.
 
 ## ✅ Prerequisites
 
