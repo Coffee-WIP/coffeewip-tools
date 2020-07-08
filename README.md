@@ -2,7 +2,7 @@
 
 ## 🔖 Description
 
-TODO
+🔌 This repository contains Tools and Libraries that you can use independently in your projects.
 
 ## 📂 Code scaffolding
 
