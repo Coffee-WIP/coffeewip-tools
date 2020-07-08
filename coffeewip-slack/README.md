@@ -36,6 +36,25 @@ $npm build
 $npm test
 ```
 
+## 📂 Code scaffolding
+
+```
+/
+├── assets 🌈               # Images Sources.
+|   └── ...                 # ...
+|   |
+├── doc
+|   ├── qac 🔰              # Quality Assurance Code.
+|   |   └── ...             # ...
+|   |
+├── env 🔌                  # Configure enviroments deploy.
+|   |   └── ...             # ...
+|   |
+├── src                     # Main folder application with code.
+|   └── ...   
+└── ...
+```
+
 ## ⛽️ Review and Update Dependences
 
 For review and update all npm dependences of this project you need install in global npm package "npm-check-updates" npm module.
