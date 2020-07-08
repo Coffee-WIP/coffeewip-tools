@@ -1,0 +1,1 @@
+/** Wrapper CoffeeWIP Slack Library */
