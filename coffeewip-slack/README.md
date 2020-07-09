@@ -1,4 +1,24 @@
-# CoffeeWIP Slack Library
+<p align="center">
+  <img src="./assets/banner.jpg" width="500" />
+  <br /> <br /> <br />
+</p>
+
+<h1 align="center">CoffeeWIP Slack Library</h1>
+
+<p align="center">🎓 This repository contains examples that I have done for my own preparation for the NodeJS certification exam - Application Developer (JSNAD).</p>
+
+<p align="center">This content is not official from the OpenJS Foundation or from NodeJS.</p>
+
+<p align="center">
+  <a title="MIT License" href="LICENSE.md">
+    <img src="https://img.shields.io/github/license/gridsome/gridsome.svg?style=flat-square&label=License&colorB=6cc24a">
+  </a>
+  <a title="Twitter: CoffeeWIP" href="https://twitter.com/CoffeeWIP">
+    <img src="https://img.shields.io/twitter/url?color=1991DA&label=Twitter%20%40CoffeeWIP&logo=twitter&logoColor=FFFFFF&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FCoffeeWIP">
+  </a>  
+  <br />
+  <br />
+</p>
 
 ## 🔖 Description
 
@@ -36,18 +56,38 @@ $npm build
 $npm test
 ```
 
+## ⚡️ Run
+
+For use this library, you need generate a Slack Application, activate it in your Workspace and generate a Bot / User Token. 
+
+You can see more information about Token [here](https://api.slack.com/legacy/oauth#using_tokens).
+
+### Example
+
+```js
+import Slack from 'coffeewip-slack';
+
+const slack = new Slack('YOUR TOKEN');
+
+(async () => {
+  try {
+    const result = await slack.usersList();
+    console.log(result);
+  } catch (err) {
+    console.error(err);
+  }
+})();
+```
+
 ## 📂 Code scaffolding
 
-```
+```any
 /
 ├── assets 🌈               # Images Sources.
 |   └── ...                 # ...
 |   |
 ├── doc
 |   ├── qac 🔰              # Quality Assurance Code.
-|   |   └── ...             # ...
-|   |
-├── env 🔌                  # Configure enviroments deploy.
 |   |   └── ...             # ...
 |   |
 ├── src                     # Main folder application with code.

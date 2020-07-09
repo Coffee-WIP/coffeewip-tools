@@ -5,7 +5,9 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "start": "ts-node index.ts",
+    "test:jscpd": "jscpd",
+    "test:jest": "jest"
   },
   "author": "CoffeeWIP",
   "license": "MIT",
@@ -19,7 +21,8 @@
     "@typescript-eslint/parser": "^3.6.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "ts-node": "^8.10.2"
   },
   "jest": {
     "moduleFileExtensions": [
