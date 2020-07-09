@@ -70,7 +70,7 @@ class Slack {
    *
    * @returns {Promise<string>}
    */
-  request = async (options: object, content?: object): Promise<string> => new Promise(
+  private request = async (options: object, content?: object): Promise<string> => new Promise(
     (resolve, reject) => {
       let data: string = '';
       const req = https.request({
