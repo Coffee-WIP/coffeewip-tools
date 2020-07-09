@@ -1,13 +1,9 @@
 <p align="center">
   <img src="./assets/banner.jpg" width="500" />
-  <br /> <br /> <br />
+  <br /> <br />
 </p>
 
 <h1 align="center">CoffeeWIP Slack Library</h1>
-
-<p align="center">🎓 This repository contains examples that I have done for my own preparation for the NodeJS certification exam - Application Developer (JSNAD).</p>
-
-<p align="center">This content is not official from the OpenJS Foundation or from NodeJS.</p>
 
 <p align="center">
   <a title="MIT License" href="LICENSE.md">
